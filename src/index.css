@@ -1,0 +1,18 @@
+/* index.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+.ol-map {
+  height: 100vh; /* o 100% si los padres tienen altura */
+  width: 100%;
+}
+
+.ol-mouse-position {
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;  
+}
