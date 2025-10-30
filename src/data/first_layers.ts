@@ -23,7 +23,7 @@ export const firstLayers: LayerData[] = [
     {
         name: 'geocolor-layer',        
         source: new XYZ({
-            url: 'http://172.29.60.170:81/geocolor/202510292330/{z}/{x}/{-y}.png',
+            url: 'http://localhost/geocolor/202510292330/{z}/{x}/{-y}.png',
         }),
         desc: 'Satellite Imagery Layer',
         opacity: 0.5,
@@ -32,7 +32,7 @@ export const firstLayers: LayerData[] = [
     {
         name: 'estados-layer',        
         source: new XYZ({
-            url: 'http://172.29.60.18/tile_layer/edos_mex_white_stroke/{z}/{x}/{y}.png',
+            url: 'http://localhost/tile_layer/edos_mex_white_stroke/{z}/{x}/{y}.png',
         }),
         desc: 'Estados Layer',
         opacity: 1,
@@ -42,7 +42,7 @@ export const firstLayers: LayerData[] = [
     {
         name: 'divisiones-municipales-layer',        
         source: new XYZ({
-            url: 'http://172.29.60.18/tile_layer/entidades_municipios_2024/{z}/{x}/{y}.png',
+            url: 'http://localhost/tile_layer/entidades_municipios_2024/{z}/{x}/{y}.png',
         }),
         desc: 'Divisiones Municipales Layer',
         opacity: 1,
